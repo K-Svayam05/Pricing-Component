@@ -108,7 +108,7 @@ const PricingComponent = () => {
                             value={inputPageviews}
                             onChange={handleInputChange}
                             placeholder="Enter pageviews"
-                            className="px-4 py-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600"
+                            className="px-4 py-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600 text-black"
                         />
                         <button
                             onClick={applyCustomPageviews}
